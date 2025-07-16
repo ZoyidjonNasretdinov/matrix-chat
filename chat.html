@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matrix Chat</title>
+  <link rel="stylesheet" href="./css/chat.css" />
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+
+  <div class="chat-container glass">
+    <div class="chat-header">
+      💬 MATRIX PRIVATE CHAT
+      <div class="status">
+        <img src="bot.png" class="avatar-mini" />
+        <span id="status-text">🟢 Online</span>
+      </div>
+    </div>    
+    <div class="chat-box" id="chat-box">
+      <!-- Chat messages appear here -->
+    </div>
+    <form id="chat-form">
+      <input type="text" id="message-input" placeholder="Xabar yozing..." autocomplete="off" />
+      <button type="submit">Yuborish</button>
+    </form>
+  </div>
+  <div class="glass2" style="margin: 20px; padding: 15px;">
+    <h3>👥 Foydalanuvchilar</h3>
+    <ul id="user-list"></ul>
+  </div>
+  
+  <script src="./js/chat.js"></script>
+</body>
+</html>

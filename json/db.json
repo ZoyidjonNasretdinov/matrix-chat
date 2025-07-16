@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "123456",
+      "isOnline": false,
+      "lastSeen": ""
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "password": "qwerty",
+      "isOnline": false,
+      "lastSeen": ""
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "Salom",
+      "timestamp": "2025-07-15T20:40:00"
+    },
+    {
+      "id": "2",
+      "sender": "user2@example.com",
+      "receiver": "user1@example.com",
+      "text": "Salom, nima gap?",
+      "timestamp": "2025-07-15T20:41:00"
+    },
+    {
+      "id": "52be",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:35:11.413Z"
+    },
+    {
+      "id": "c11a",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "qalesan",
+      "timestamp": "2025-07-16T06:35:19.719Z"
+    },
+    {
+      "id": "bcc2",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "zormi",
+      "timestamp": "2025-07-16T06:35:26.668Z"
+    },
+    {
+      "id": "62ec",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "s",
+      "timestamp": "2025-07-16T06:35:48.777Z"
+    },
+    {
+      "id": "ffa4",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:42:31.673Z"
+    },
+    {
+      "id": "5575",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:43:34.718Z"
+    },
+    {
+      "id": "0d24",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:46:50.005Z"
+    },
+    {
+      "id": "4fd5",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:49:25.131Z"
+    },
+    {
+      "id": "787f",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:49:54.503Z"
+    },
+    {
+      "id": "6e5f",
+      "sender": "user2@example.com",
+      "receiver": "user1@example.com",
+      "text": "Men Matrix botman. Xabaringiz qabul qilindi.",
+      "timestamp": "2025-07-16T06:49:58.087Z",
+      "animated": true
+    },
+    {
+      "id": "b92d",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:50:16.125Z"
+    },
+    {
+      "id": "2d1e",
+      "sender": "user2@example.com",
+      "receiver": "user1@example.com",
+      "text": "ava",
+      "timestamp": "2025-07-16T06:55:48.741Z"
+    },
+    {
+      "id": "f7dc",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:56:46.076Z"
+    },
+    {
+      "id": "ea15",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T06:58:04.349Z"
+    },
+    {
+      "id": "00fb",
+      "sender": "user1@example.com",
+      "receiver": "user2@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T07:00:23.322Z"
+    },
+    {
+      "id": "7adf",
+      "sender": "user2@example.com",
+      "receiver": "user1@example.com",
+      "text": "salom",
+      "timestamp": "2025-07-16T07:00:48.978Z"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: black;
+  color: #00ff00;
+  height: 100vh;
+  overflow: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Glass-effect container */
+.glass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+}
+
+
+.glass2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  max-width: 20%;
+  height: 20%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+}
+
+
+/* Header */
+.chat-header {
+  padding: 10px;
+  text-align: center;
+  background: rgba(0, 255, 0, 0.1);
+  font-weight: bold;
+  border-bottom: 1px solid #0f0;
+}
+
+/* Chat message box */
+.chat-box {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scrollbar-width: thin;
+}
+
+/* Chat message block */
+.message {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 80%;
+}
+
+.message.self {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #0f0;
+  object-fit: cover;
+}
+
+.text {
+  padding: 8px 12px;
+  background: rgba(0,255,0,0.1);
+  border-radius: 8px;
+  border: 1px solid #0f0;
+  font-size: 14px;
+  color: #00ff00;
+  font-family: monospace;
+  white-space: pre-wrap;
+  border-right: 1px solid #0f0;
+}
+
+/* Blinking cursor effect (for typing) */
+.text.typing::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Input form */
+form {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #0f0;
+  background: rgba(0, 255, 0, 0.05);
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #0f0;
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+form button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #00ff00;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chat-header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  background: rgba(0, 255, 0, 0.1);
+  font-weight: bold;
+  border-bottom: 1px solid #0f0;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #0f0;
+}
+
+.avatar-mini {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #0f0;
+  object-fit: cover;
+}
